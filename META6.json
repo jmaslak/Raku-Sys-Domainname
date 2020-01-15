@@ -1,0 +1,20 @@
+{
+  "auth" : "cpan:JMASLAK",
+  "authors" : [
+    "Joelle Maslak"
+  ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "description" : "Determine System Domain Name",
+  "license" : "Artistic-2.0",
+  "name" : "Sys::Domainname",
+  "perl" : "6.c",
+  "provides" : {
+    "Sys::Domainname" : "lib/Sys/Domainname.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "https://github.com/jmaslak/Raku-Sys-Domainname.git",
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "version" : "0.0.1"
+}
