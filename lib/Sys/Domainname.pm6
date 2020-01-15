@@ -19,7 +19,7 @@ sub domainname(-->Str) is export {
 
 =head1 NAME
 
-Sys::Domainname - Raku bindings for NativeCall TCP on Linux w/ Non-NativeCall Fallback`
+Sys::Domainname - Determine System Domain Name
 
 =head1 SYNOPSIS
 
