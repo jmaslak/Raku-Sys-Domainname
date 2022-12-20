@@ -5,7 +5,7 @@ use v6;
 # All Rights Reserved - See License
 #
 
-unit module Sys::Domainname:ver<0.0.1>:auth<zef:jmaslak>;
+unit module Sys::Domainname:ver<0.1.0>:auth<zef:jmaslak>;
 
 sub domainname(-->Str) is export {
     return S/^ <-[ \. ]>+ \. // with qqx{hostname -f}.chomp;
