@@ -1,6 +1,7 @@
 Revision history for Sys::Domainname
 
 {{$NEXT}}
+  * Migrate to Raku module ecosystem
 
 0.0.1  2020-01-15T22:54:22Z
   * Initial release

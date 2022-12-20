@@ -1,11 +1,11 @@
 use v6;
 
 #
-# Copyright © 2020 Joelle Maslak
+# Copyright © 2020-2022 Joelle Maslak
 # All Rights Reserved - See License
 #
 
-unit module Sys::Domainname:ver<0.0.1>:auth<cpan:JMASLAK>;
+unit module Sys::Domainname:ver<0.0.1>:auth<zef:jmaslak>;
 
 sub domainname(-->Str) is export {
     return S/^ <-[ \. ]>+ \. // with qqx{hostname -f}.chomp;
@@ -48,7 +48,7 @@ Joelle Maslak <jmaslak@antelope.net>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright © 2020 Joelle Maslak
+Copyright © 2020-2022 Joelle Maslak
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
 
